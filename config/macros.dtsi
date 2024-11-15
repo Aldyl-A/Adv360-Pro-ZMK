@@ -1,9 +1,3 @@
-macro_maximo1: macro_maximo1{
-compatible = "zmk,behavior-macro";
-label = "macro_maximo1";
-#binding-cells = <0>;
-bindings = <&kp NUMBER_0>, <&kp DOT>, <&kp NUMBER_7>, <&kp NUMBER_5>, <&kp TAB>, <&kp C_SLOW>, <&kp TAB>, <&kp C_SLOW>, <&kp TAB>, <&kp P>, <&kp P>;
-};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
@@ -39,53 +33,4 @@ compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-};
-complex_macro: complex_macro {
-    label = "COMPLEX_MACRO";
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    wait-ms = <500>;
-    tap-ms = <40>;
-    bindings
-        = <&macro_tap &kp N>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp P &kp P>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp E &kp P>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp R &kp E &kp N &kp E &kp W &kp E &kp D>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp N0>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp V &kp I &kp S &kp U &kp A &kp L>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp E &kp L &kp E &kp C &kp T &kp R &kp O>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp LC(DOWN)>
-        , <&macro_wait_time 500>
-        , <&macro_tap &kp N &kp FSLH &kp A>
-        ;
 };

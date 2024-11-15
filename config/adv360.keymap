@@ -78,7 +78,7 @@
             >;
         };
 
-        layer_Layer__4 {
+        layer_MAXIMO {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
